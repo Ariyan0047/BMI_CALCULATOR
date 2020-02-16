@@ -8,9 +8,9 @@ btn.addEventListener("click", Converter);
 
 function Converter() {
   if (height.value <= 0 || weight.value <= 0) {
-    alert(`Value Should Be Greater Than 0`);
-  } else if ((height.value = "" || weight.value <= "")) {
-    alert(`Fields Can't Be Empty`);
+    if ((height.value === "" || weight.value === "")) {
+      alert(`Fields Can't Be Empty And Value's Must Be Greater Than 0`);
+    }
   } else {
     const newHeight = parseFloat(height.value);
     const newWeight = parseFloat(weight.value);
