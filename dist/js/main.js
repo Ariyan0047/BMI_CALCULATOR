@@ -9,7 +9,7 @@ btn.addEventListener("click", Converter);
 function Converter() {
   if (height.value <= 0 || weight.value <= 0) {
     alert(`Value Should Be Greater Than 0`);
-  } else if ((height.value = "" && weight.value <= "")) {
+  } else if ((height.value = "" || weight.value <= "")) {
     alert(`Fields Can't Be Empty`);
   } else {
     const newHeight = parseFloat(height.value);
