@@ -21,6 +21,7 @@ body {
   background-color: #000000;
   color: #ffffff;
   padding-top: 2rem;
+  position: fixed;
 }
 
 .form-control {
@@ -51,4 +52,10 @@ input[type="text"] {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 3rem;
+  }
 }
