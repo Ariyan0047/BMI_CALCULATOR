@@ -21,7 +21,6 @@ body {
   background-color: #000000;
   color: #ffffff;
   padding-top: 2rem;
-  position: fixed;
 }
 
 .form-control {
@@ -46,10 +45,8 @@ input[type="text"] {
 .heading {
   font-size: 6rem;
   font-weight: bolder;
-  background: -webkit-linear-gradient(
-    rgba(39, 174, 96, 1),
-    rgba(190, 46, 221, 1)
-  );
+  background: -webkit-linear-gradient(rgba(39, 174, 96, 1),
+      rgba(190, 46, 221, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
